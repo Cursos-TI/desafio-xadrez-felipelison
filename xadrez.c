@@ -30,18 +30,22 @@ void andarRainha(int casas){
 int main() {
     
     //TORRE
+
     printf("**Torre**\n");
     andarTorre(5);
 
     //BISPO
+
     printf("\n**Bispo**\n");
     andarBispo(5);
     
     //RAINHA
+
     printf("\n**Rainha**\n");
     andarRainha(8);
     
     //CAVALO
+    
     printf("\n**Cavalo**\n");
     for(int cavalo = 0, casas = 0; casas < 1; casas++)
     {
